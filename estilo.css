@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	color:purple
+}
+p{
+	color:black ;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+h2{
+    color:purple;
+}
+a{
+	color:mediumpurple;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+ol{
+	color:white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+figcaption{
+	color: mediumpurple;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+ul{
+	color: mediumpurple;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+body{
+	background: url("IMG/fondo.jpeg") 0 0 no-repeat fixed;
+	background-size: cover;
+}
+/* 3.contenedor */
+/* Estilos para el contenedor principal de la pagina */
+#wrap-main {
+	width: 650px;
+	min-height: 100vh;
+	background-color:rgba(255,255,255,0.82);
+	padding: 20px;
+	margin: auto;
+}
+
+/* 4.Contenido */
+/* Estilos para el contenido principal de la pagina*/
+
+h1 {
+	font-size: 90px;
+	text-align:center;
+	color:purple;
+	margin: 0 0 20px 0;
+   font-family: "Permanent Marker", cursive;
+  font-weight:800;
+  font-style: normal;
+
+}
+h2{
+	font-size: 30px;
+	text-align:left;
+	color:purple;
+	margin: 0 0 20px 0;
+	
+  font-family: "Permanent Marker", cursive;
+  font-weight:200;
+  font-style: normal;
+}
+p{
+	margin: 20px 0;
+	color:black;
+	text-align: justify;
+
+}
+ul, ol, h3,h4,a{
+	margin: 0;
+	color:mediumpurple 
+}
+hr{
+	border: 0;
+	background-color: blueviolet;
+	height: 1px;
+}
+img, .video-container video{
+	width: 100%;
+	margin-top: 20px;
+}
+#Introduction {
+  	height: auto;
+	width: 600px;
+	display: block;
+	margin: 0 auto 20px;
+}
+#Trayectoria {
+	height: auto;
+	width: 600px;
+	display: block;
+	margin: 0 auto 20px;
+}
+#Covers {
+	height: auto;
+	width: 600px;
+	display: block;
+	margin: 0 auto 20px;
+}
+
+Audio{
+	width: 100%;
+}
+figcaption{
+	font-style:normal;
+	font-weight:normal;
+	color: #9C9BE7;
+	margin: 0 auto 20px;
+	text-align:center;
+	
+}
+/*5.navegador y footer */
+/*estilos para la navegacion y el pie de pagina*/
+nav{
+	text-align:center;
+}
+nav a {
+	display: inline-block;
+	margin: 0 10px; 
+	padding: 10px 20px;
+	background-color:mediumpurple;
+	text-decoration: none;
+	color:white;
+	border-radius: 10px;	
+}
+footer p {
+	background-color: mediumorchid;
+	color:white;
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+	columns: 1;
+}
